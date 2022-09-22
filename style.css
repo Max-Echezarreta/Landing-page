@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  header{
+      background: rgba(0, 0, 0, 0.846);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 110px;
+      padding: 0px 30px 0px 30px;
+      position:relative;
+      top: 0;
+  }
+  
+  .logo {
+       height: 100%;
+       width: 120px;
+  }
+  
+  .navbar,
+  .navbar-list {
+      display: flex;
+      align-items:center;
+      justify-content:center;
+  }
+  
+  .navbar {
+      gap: 150px;
+  }
+  .navbar-list {
+      gap: 30px
+  }
+  .navbar-list a{
+      color: aliceblue;
+      font-size: 14px;
+  }
+  .navbar-list li:first-child > a {
+      color: aliceblue;
+      font-weight: 600;
+  }
+  
+  ul{
+      list-style: none;
+  }
+  
+  .cart-icon {
+      padding: 12px 18px;
+      margin-top: 3px;
+      border-radius: 10px;
+      height: 80px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+
+  main
+  {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+
+  #hero {
+     margin-top: 65px;
+     padding: 70px 0px;
+     max-width: 1200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+   .hero-info {
+     display: flex;
+     flex-direction: column;  
+     gap: 20px;
+     width: 50%;  
+  }
+
+  .hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: gray;
+  }
+
+  .hero-info p {
+    font-size: 14px;
+    width: 70%;
+    color: gray;
+  }
+
+  .hero-info p > span {
+    font-weight: 800;
+  }
+
+  .hero-info a {
+    color: whitesmoke;
+    background-color: blue;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero-card {
+    width: 700px;
+    background-color:antiquewhite;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #info {
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+  
+  #info h2{
+    padding:10px;
+    display: flex;
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background:linear-gradient(#FF0080, #FF8C00, #40E0D0);
+    color:transparent;
+    -webkit-background-clip: text;
+}
