@@ -72,7 +72,6 @@
   #hero {
      margin-top: 65px;
      padding: 70px 0px;
-     max-width: 1200px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -83,6 +82,8 @@
      flex-direction: column;  
      gap: 20px;
      width: 50%;  
+     min-width: 300px;
+     max-width: 1200px;
   }
 
   .hero-info h1 {
@@ -90,21 +91,29 @@
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    color: gray;
+    color:beige;
+    min-width: 300px;
+    max-width: 1200px;
   }
 
   .hero-info p {
     font-size: 14px;
     width: 70%;
     color: gray;
+    min-width: 300px;
+    max-width: 1200px;
   }
 
   .hero-info p > span {
     font-weight: 800;
+    min-width: 300px;
+    max-width: 1200px;
   }
 
   .hero-info a {
     color: whitesmoke;
+    min-width: 300px;
+    max-width: 1200px;
     background-color: blue;
     width: 120px;
     padding: 8px 0px;
@@ -115,9 +124,12 @@
 
   .hero-card {
     width: 700px;
+    min-width: 300px;
+    max-width: 1200px;
     background-color:antiquewhite;
     padding: 10px;
     border-radius: 15px;
+    border-style: ridge;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +139,7 @@
   #info {
     padding: 70px 0px;
     max-width: 1200px;
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,13 +151,38 @@
     padding:10px;
     display: flex;
     max-width: 1200px;
+    min-width: 300px;
     height: 100%;
     width: 100%;
-    background-color: black;
     border-radius: 15px;
     align-items: center;
     justify-content: space-around;
-    background:linear-gradient(#FF0080, #FF8C00, #40E0D0);
+    background:linear-gradient(150deg, rgba(255,255,255,1) 0%, rgba(153,159,44,1) 35%, rgba(215,0,0,1) 100%);
     color:transparent;
     -webkit-background-clip: text;
 }
+ 
+.divisor{
+  max-width: 1200px;
+  min-width: 300px;
+  display: flex;
+  justify-content:center;
+  }
+
+  .hr {
+    border-radius: 90%;
+    background: linear-gradient(150deg, rgba(236,255,0,1) 0%, rgba(97,34,22,1) 35%, rgba(163,149,12,1) 100%);
+    height: 40px;
+    width: 1520px;
+    border: 1rem;
+    border-style:double;
+  }
+
+  .hr2 {
+    background: linear-gradient(150deg, rgba(0,44,255,1) 0%, rgba(42,255,102,1) 35%, rgba(255,0,198,1) 100%);
+    background-color: aliceblue;
+    height: 40px;
+    width: 1520px;
+    border: 1rem;
+    border-style:outset;
+  }
