@@ -375,17 +375,20 @@
     background:white;
     color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    gap: 150px;
-    padding: opx 0px;
+    height: 250px;
     border-style:double;
   }
 
   .logo-footer{
     display: flex;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px 100px 0px;
+    gap: 400px;
   }
 
   footer p {
@@ -393,6 +396,7 @@
     justify-content: center;
     align-items: center;
     height: 30px;
+    padding : 10px 50px 0px 0px ; 
     font-size: 20px;
     color: grey;
   }
@@ -423,7 +427,19 @@
     }
 
     .hero-card{
-      display: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .hero-card img {
+      display: flex;  
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      height: 300px;
+      width: 300px;
     }
 
     #about{
@@ -432,19 +448,32 @@
     }
 
     .divisor{
-      display: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .divisor img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      max-width: 100%;
+      flex-direction: column;
     }
 
     .hr {
-      display: none;
+      display: flex;
     }
 
     .hr2 {
-      display: none;
+      display: flex;
     }
 
     .cart-icon {
-      display: none;
+      display: flex;
+      height: 70px;
     }
 
     .navbar-list {
@@ -474,7 +503,23 @@
       height: 14px;
       background: white;
     }
-  
+    
+    .info-contact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .info-contact p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
 
     .navbar-list{
       background-color: white;
@@ -490,17 +535,81 @@
     }
 
     #contact h2 {
-      display: none;
-    }
-    .contact-container {
+      display: flex;
+      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      justify-items: center;
+      width: 400px;
+    }
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .iframe {
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      width: 10px;   
     }
 
     .redes{
-     display: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content:space-between;
+     justify-items: center;
+     gap: 20px;
+     height: 10px;
+     width: 10px;
     }
+
+    .redes-img {
+      display: none;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      justify-items: center;
+      height: 50px;
+      width: 50px;
+      gap: 10px;
+    }
+
+    footer {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      justify-items: center;
+      display: flex;
+      gap: 0px;
+    }
+    
+    .logo-footer {
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      flex-direction: row;
+      height: 10px;
+      gap: 0px;
+      margin-left: 400px;
+      
+     } 
+   footer p {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;  
+   }
+
 
     #toggle-menu:checked + .navbar-list {
       transform: translateX(0%);
