@@ -5,6 +5,7 @@
     font-family: sans-serif;
     text-decoration: none;
     list-style-type: none;
+    max-width: 1800px;
   }
   header{
       background-color: rgba(56, 53, 53, 0.762);
@@ -155,6 +156,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-right: 5%;
   }
 
   .hero-card img {
@@ -360,8 +362,22 @@
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 50px;
     padding: 100px 75px 100px 20px;
+  }
+
+  .redes-image {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .redes div{
+    width: 280px;
+  }
+
+  .redes div:last-child {
+
   }
 
   .iframe {
